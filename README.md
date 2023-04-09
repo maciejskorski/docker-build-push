@@ -1,7 +1,9 @@
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Docker](https://img.shields.io/badge/dockerhub-images-important.svg?logo=LOGO)
+
 
 # Summary
-This template shows how build a docker image and publish to [DockerHub](https://hub.docker.com/), using GitHub Actions.
+This template shows how build a docker image :whale: and publish to [DockerHub](https://hub.docker.com/), using GitHub Actions.
 
 # How to use
 
