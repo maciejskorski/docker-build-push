@@ -1,7 +1,7 @@
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 # Summary
-This template shows how build a docker image and publish to the [DockerHub register](https://hub.docker.com/), using GitHub Actions.
+This template shows how build a docker image and publish to [DockerHub](https://hub.docker.com/), using GitHub Actions.
 
 # How to use
 
