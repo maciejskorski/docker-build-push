@@ -19,7 +19,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Log in to DockerHub
-      env:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
         echo "${{secrets.DOCKER_USER}}/$IMAGE_NAME:$IMAGE_VERSION"
