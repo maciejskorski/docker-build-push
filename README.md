@@ -12,4 +12,4 @@ This template shows how build a docker image and publish to the [DockerHub regis
 
 # Note
 
-This repo has been created for educational purposes. Building and publishing docker image can be also automatized with [dedicated GitHub Actions](https://github.com/docker/build-push-action).
+This repo has been created for educational purposes. Building and publishing docker image is here solved with direct Docker commands, but can be also automatized with [dedicated GitHub Actions](https://github.com/docker/build-push-action).
