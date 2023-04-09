@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 # Summary
 This template shows how to build and push a docker image with GitHub Actions.
