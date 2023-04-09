@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Docker Hub tag and credentials
+    # Docker Hub tags and credentials, customize!
     env:
       IMAGE_NAME: trivial-docker
       IMAGE_VERSION: latest

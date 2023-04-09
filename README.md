@@ -7,7 +7,9 @@ This template shows how build a docker image and publish to [DockerHub](https://
 
 * Customize the code of `Dockerfile`
 * Prepare a docker repository on [DockerHub](https://hub.docker.com/) to host your project
-* Customize the build-push action in `.github/workflows/docker-image.yaml`, in particular use correct DockerHub credentials and remember to add them to your [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) as `DOCKER_USER` and `DOCKER_PASSWORD` respectively.
+* Customize the build-push action in `.github/workflows/docker-image.yaml`, in particular:
+    * use correct DockerHub credentials and add them to your [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) as `DOCKER_USER` and `DOCKER_PASSWORD` respectively.
+    * make sure that `IMAGE_NAME` matches the repo name on DockerHub 
 * The workflow is (by default) run either when the code of the docker file or action script gets changed, or when triggered manually.
 
 # Note
