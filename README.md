@@ -3,7 +3,7 @@
 
 
 # Summary
-This template shows how build a docker image :whale: and publish to [DockerHub](https://hub.docker.com/) and [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry), using GitHub Actions.
+This template builds a docker image :whale: and publishes to [DockerHub](https://hub.docker.com/) or [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry), using GitHub Actions.
 
 # How to use
 
