@@ -8,10 +8,10 @@ This template builds a docker image :whale: and publishes to [DockerHub](https:/
 # How to use
 
 * Customize the code of `Dockerfile`
-* Prepare a docker repository on [DockerHub](https://hub.docker.com/) to host your project
+* Prepare a docker host: [DockerHub](https://hub.docker.com/) or a token for [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
 * Customize the build-push action in `.github/workflows/docker-image.yaml`, in particular:
-    * use correct DockerHub credentials and add them to your [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) as `DOCKER_USER` and `DOCKER_PASSWORD` respectively.
-    * make sure that `IMAGE_NAME` matches the repo name on DockerHub 
+    * use correct DockerHub credentials and add them to your [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets), as `DOCKER_USER` and `DOCKER_PASSWORD` for DockerHub and `PAT` for Container Registry, respectively.
+    * make sure that `IMAGE_NAME` matches the repo name on DockerHub
 * The workflow is (by default) run either when the code of the docker file or action script gets changed, or when triggered manually.
 
 # Note
