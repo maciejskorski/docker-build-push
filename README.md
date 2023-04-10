@@ -3,7 +3,7 @@
 
 
 # Summary
-This template shows how build a docker image :whale: and publish to [DockerHub](https://hub.docker.com/), using GitHub Actions.
+This template shows how build a docker image :whale: and publish to [DockerHub](https://hub.docker.com/) and [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry), using GitHub Actions.
 
 # How to use
 
@@ -16,4 +16,4 @@ This template shows how build a docker image :whale: and publish to [DockerHub](
 
 # Note
 
-This repo has been created for educational purposes. Building and publishing docker image is here solved with direct Docker commands, but can be also automatized with [dedicated GitHub Actions](https://github.com/docker/build-push-action).
+This repo has been created for educational purposes. Building and publishing docker image is here done with direct Docker commands, but can be also automatized with [dedicated GitHub Actions](https://github.com/docker/build-push-action).
